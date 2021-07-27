@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-function RandomColorDisplay(props) {
+function RandomColorDisplay({ backgroundColor }) {
   return (
     <div
       style= {{
-        backgroundColor: 'green',
+        backgroundColor,
         width: '100vw',
         height: '100vh'
       }}
